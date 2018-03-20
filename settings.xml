@@ -3,25 +3,20 @@
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                       https://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
-    <server>
-      <id>ajith-releases</id>
-      <username>ajith-user</username>
-      <password>ajith123</password>
-    </server>
-    <server>
-      <id>ajith-snapshot</id>
-      <username>ajith-user</username>
-      <password>ajith123</password>
-    </server>
 	<server>
       <id>nexus</id>
       <username>admin</username>
       <password>admin123</password>
 	 </server>
 	<server>
-      <id>sprig-snapshots</id>
-      <username>spring-user</username>
-      <password>sprig123</password>
+      <id>spring-releases</id>
+      <username>spring-usr</username>
+      <password>springusr@123</password>
 	</server> 
+	  <server>
+          <id>spring-snapshots</id>
+          <username>spring-usr</username>
+          <password>springusr@123</password>
+        </server>
   </servers>
 </settings>
